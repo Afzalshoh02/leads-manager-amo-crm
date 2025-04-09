@@ -195,7 +195,7 @@
                             <td colspan="4">
                                 <div class="alert text-center my-3" role="alert">
                                     <i class="bi bi-exclamation-circle fs-4 me-2"></i>
-                                    <span class="fs-5">Нет лидов, соответствующих вашим критериям</span>
+                                    <span class="fs-5">Нет лидов, соответствующих вашим критериям. <a href="https://{{ env('AMO_BASE_DOMAIN') }}}/leads/pipeline/?skip_filter=Y" target="_blank">Создайте сделку в AMO CRM</a> для отображения здесь.</span>
                                 </div>
                             </td>
                         </tr>
